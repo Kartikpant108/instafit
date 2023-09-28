@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".PushUpDetail">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/jsonSquats"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:lottie_autoPlay="true"
+        app:lottie_speed="1"
+        app:lottie_fileName="planks.json"/>
+
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Target Zone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="1. Transverse Abdominis: The transverse abdominis is a deep abdominal muscle that acts as a natural corset, providing core stability during the plank exercise."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="2. Erector Spinae: The erector spinae muscles, which run along the spine, help maintain proper spinal alignment and stability during planks."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="3. Hamstrings: The muscles at the back of the thighs, known as the hamstrings, are activated to assist in stabilizing the lower body during planks."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="4. Shoulders and Scapular Stabilizers: The muscles of the shoulders, including the deltoids and the muscles that stabilize the shoulder blades (scapulae), are engaged to maintain proper upper body positioning and stability during planks."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

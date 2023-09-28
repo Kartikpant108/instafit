@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".PushUpDetail">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/jsonSkipping"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:lottie_autoPlay="true"
+        app:lottie_speed="1"
+        app:lottie_fileName="skipping.json"/>
+
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Target Zone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="1. Calves: The calf muscles, including the gastrocnemius and soleus, are heavily engaged during jumping rope. They help propel you off the ground and stabilize the lower leg."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="2. Quadriceps: The quadriceps, located at the front of the thigh, are actively involved in extending the knee during the jumping motion."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="3. Hamstrings: The hamstrings, located at the back of the thigh, play a role in flexing the knee during the upward swing of the jump and help control the landing."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="4. Glutes: The gluteal muscles, including the gluteus maximus, medius, and minimus, provide power and stability during the jumping motion."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

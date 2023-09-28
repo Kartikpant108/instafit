@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".PushUpDetail">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/jsonPullUp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:lottie_autoPlay="true"
+        app:lottie_speed="1"
+        app:lottie_fileName="pull-ups.json"/>
+
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Target Zone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="1. Latissimus Dorsi: The latissimus dorsi, commonly referred to as the lats, are the largest muscles of the back and play a significant role in the pulling motion during pull-ups."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="2. Biceps Brachii: The biceps brachii muscles, located on the front of the upper arm, are responsible for flexing the elbow and are engaged during the pulling phase of pull-ups."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="3. Rhomboids: The rhomboid muscles, located between the shoulder blades, help in retracting and stabilizing the scapulae during pull-ups."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="4. Trapezius: The trapezius muscles, which span the upper back and neck region, assist in stabilizing and retracting the shoulder blades during the pulling motion."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
